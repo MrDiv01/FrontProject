@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoping</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" <!-- CSS
+        only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="owl-carousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="owl-carousel/assets/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/media.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+    <div id="searchpanel">
+        <div class="exit">
+            <i onclick="closeslide()" class="exitt fa-solid fa-xmark"></i>
+        </div>
+        <div class="searchofall">
+            <div class="searchh6">
+                <h6>WHAT ARE YOU LOOKING FOR?</h6>
+            </div>
+            <div class="righting">
+                <i class=" searchoficon  fa-solid fa-magnifying-glass"></i>
+                <input placeholder="search" class="searchinput" type="search">
+
+            </div>
+            <div class="sticksearch">
+
+            </div>
+        </div>
+    </div>
+    <div id="navbar">
+
+        <div id="menuulli">
+            <div class="chose">
+                <i onclick="closesliderbar()" id="delete" class="fa-solid fa-x"></i>
+
+                <ul>
+                    <li>HOME</li>
+                    <li>SHOPS</li>
+                    <li>PAGES</li>
+                    <li>BLOG</li>
+                    <li>SALE</li>
+                    <li>BUY THEME!</li>
+                </ul>
+            </div>
+
+            <div class="greystick">
+
+            </div>
+
+            <div class="foryou">
+                <ul>
+                    <li><i class="fa-solid fa-user"></i>LOGIN</li>
+                    <li><i class="fa-solid fa-heart"></i>WISHLIST</li>
+                    <li><i class="fa-solid fa-basket-shopping"></i>MYCART</li>
+                </ul>
+            </div>
+            <div class="social">
+                <ul>
+                    <li><i class="fa-brands fa-facebook-f"></i></li>
+                    <li><i class="fa-brands fa-youtube"></i></li>
+                    <li><i class="fa-brands fa-instagram"></i></li>
+                    <li><i class="fa-brands fa-linkedin-in"></i></li>
+                    <li><i class="fa-brands fa-pinterest"></i></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container">
+            <i onclick="opensliderbar()" id="bar" class="bar menuresponsive fas fa-bars"></i>
+            <div class="Logo">
+
+                <img src="img/VENDY_120x40_crop_center.png" alt="#">
+            </div>
+            <div class="choice">
+                <ul>
+                    <a href="#">
+                    </a>
+                    <li class="clas1"><a class="home" href="#">Home</a><i class="fas fa-chevron-down"></i>
+                        <div class="dropDown">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <div class="homePages">
+                                                    <ul>
+                                                        <h6>HOMEPAGES</h6>
+                                                        <li><a class="grey " href="">Home-V2</a><a class="pink"
+                                                                href="">hot</a></li>
+                                                        <li><a class="grey" href="">Home-V3</a><a class="blue"
+                                                                href="">new</a></li>
+                                                        <li><a class="grey" href="">Home-V4</a></li>
+                                                        <li><a class="grey" href="">Home-V5</a><a class="pink"
+                                                                href="">hot</a></li>
+                                                        <li><a class="grey" href="">Home-V6</a></li>
+                                                        <li><a class="grey" href="">Home-V7</a></li>
+                                                        <li><a class="grey" href="">Home-V8</a></li>
+                                                        <li><a class="grey" href="">Home-V9</a></li>
+                                                        <li><a class="grey" href="">Home-V10</a></li>
+                                                        <li><a class="grey" href="">Home-V11</a><a class="blue"
+                                                                href="">new</a></li>
+                                                        <li><a class="grey" href="">Skin-V1</a><a class="pink"
+                                                                href="">hot</a></li>
+                                                        <li><a class="grey" href="">Skin-V2</a><a class="black"
+                                                                href="">feature</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="headerpages">
+                                                    <ul>
+                                                        <h6>HEADER LAYOUTS</h6>
+                                                        <li><a class="grey" href="">Header_V1</a><a class="black"
+                                                                href="">feature</a></li>
+                                                        <li><a class="grey" href="">Header_V2</a></li>
+                                                        <li><a class="grey" href="">Header_V3</a><a class="blue"
+                                                                href="">new</a></li>
+                                                        <li><a class="grey" href="">Header_V4</a><a class="blue"
+                                                                href="">new</a></li>
+                                                        <li><a class="grey" href="">Header_V5</a><a class="pink"
+                                                                href="">hot</a></li>
+                                                        <li><a class="grey" href="">Header_V6</a><a class="blue"
+                                                                href="">new</a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="footerpages">
+                                                    <ul>
+                                                        <h6>FOOTER LAYOUTS</h6>
+                                                        <li><a class="grey" href="">Footer_V1</a><a class="black"
+                                                                href="">feature</a></li>
+                                                        <li><a class="grey" href="">Footer_V2</a><a class="pink"
+                                                                href="">hot</a></li>
+                                                        <li><a class="grey" href="">Footer_V3</a></li>
+                                                        <li><a class="grey" href="">Footer_V4</a></li>
+                                                        <li><a class="grey" href="">Footer_V5</a><a class="blue"
+                                                                href="">new</a></li>
+                                                    </ul>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <div class="hoverimgs1">
+                                                    <a class="img1a" href=""> <img
+                                                            src="img/Rectangle_32_255x402_crop_center (1).jpg"
+                                                            alt=""></a>
+                                                    <div>
+                                                        <span class="img1span">Clearance Sales</span>
+                                                        <span class="img1span2">Up to 70% of & Free shipping</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="hoverimgs2">
+                                                    <a class="img2a" href=""><img
+                                                            src="img/banner_255x402_crop_center.jpg" alt=""></a>
+                                                    <div class="img2r">
+                                                        <p class="img2p">Woman's Fashion Boutique</p>
+                                                        <span class="shopn">Shop Now</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </li>
+                    <li class="clas2"><a href="#">Shop</a><i class="fas fa-chevron-down"></i></li>
+                    <span class="shopTR">
+                    </span>
+                    <li class="clas3"><a href="#">Pages</a><i class="fas fa-chevron-down"></i>
+                        <div id="pagesdown">
+                            <ul>
+                                <li><a href="">About Us simple</a></li>
+                                <li><a href="">About Us Creative</a></li>
+                                <li><a href="">Contact US</a></li>
+                                <li><a href="">Faq's</a></li>
+                                <li><a href="">Terms</a></li>
+                                <li><a href="">Shipping</a></li>
+                                <li><a href="">Size Guide</a></li>
+                                <li><a href="">Privacy Policy</a></li>
+                                <li><a href="">Refund Policy</a></li>
+                                <li><a href="">Page 404</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <span class="pageTR">
+
+                    </span>
+                    <li class="clas4"><a href="#">Blog</a><i class="fas fa-chevron-down"></i>
+                        <div id="Blogdown">
+                            <ul>
+                                <li><a href="">Blog Gird</a></li>
+                                <li><a href="">Blog List</a></li>
+                                <li><a href="">Blog Masonry</a></li>
+                                <li><a href="">Blog With Sidebar</a></li>
+                                <li><a href="">Single Post Page</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <span class="blogTR">
+
+                    </span>
+                    <li class="clas5"><a href="#">Sale</a><i class="fas fa-chevron-down"></i></li>
+                    <span class="saleTR">
+
+                    </span>
+                    <li class="clas6"><a href="#">Buy theme</a></li>
+                    <span class="buyTR">
+
+                    </span>
+                </ul>
+            </div>
+            <div class="acount">
+                <ul>
+                    <li class="user"><a href="login.html"><i class="far fa-user"></i></a></li>
+                    <li onclick="openslide()" class="search"><a href="#"><i class="search fas fa-search"></i></a></li>
+                    <li class="users"><a href="#"><i class="far fa-heart"></i></a></li>
+                    <li class="bag"><a href="#"><i class="fas fa-shopping-bag"></i></a></li>
+                    <li class="zero"><a href="">0</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- //////////////////////////////////////////////////////////////////////// -->
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/c3.jpg" class="d-block w-100" alt="...">
+                <div class="arrivaldiv carousel-caption">
+                    <p class="arrivalp1">2021 Collection</p>
+                    <h1 class="arrival">New arrivals</h1>
+                    <p class="arrivalp">Some representative placeholder content for the first slide.</p>
+                    <p class="arrivalp2">fashion brands, style icons, and celebrities.</p>
+                    <a class="arrivala" href="">Discover Now</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/c2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption2">
+                    <p class="arrivalp1">Fasihon guide</p>
+                    <h1 class="arrival">Denim perfect</h1>
+                    <p class="arrivalp">Some representative placeholder content for the first slide.</p>
+                    <p class="arrivalp4">fashion brands, style icons, and celebrities.</p>
+                    <a class="arrivala" href="">Discover Now</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/c1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption">
+                    <p class="arrivalp7">Get you</p>
+                    <p class="arrivalp7">Fasihon style</p>
+                    <p class="arrivalp8">Some representative placeholder content for the first slide.</p>
+                    <p class="arrivalp9">fashion brands, style icons, and celebrities.</p>
+                    <a class="arrivala" href="">Discover Now</a>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- /////////////////////////////////////////////////////////// -->
+    <div class="container">
+        <div class="flexdiv">
+            <div class="introdiv1">
+                <p class="introp">Get your Fashion style</p>
+                <span class="introspan">
+                    You'll always be in fashion with our collection of clothing
+                </span>
+                <a class="introa" href="">Explore collections</a>
+            </div>
+            <div class="introdiv2">
+                <div class="div2apadding">
+                    <a class="div2a" href="#">Womens</a>
+                </div>
+            </div>
+            <div class="introdiv3">
+                <div class="div3apadding">
+                    <a class="div3a" href="#">Mens</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ////////////////////////////////////////////////////////// -->
+
+    <div id="imgshow">
+        <div class="imgsslogan">
+            <h1>Best Sellers</h1>
+            <p>Top sale in thIs week</p>
+        </div>
+        <div class="imgsimg">
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="owl-carousel owl-theme">
+            <div class="item"><img src="img/imhshov1.jpg" alt="">
+                <div class="hovimg1"><img src="img/imhshov1a.jpg" alt=""></div>
+                <div class="hovicon">
+                    <i class="fas fa-shopping-basket"></i>
+                    <i class="fas fa-eye"></i>
+                </div>
+
+                <a class="about" href="">Black Tiered Smock Mini Dress</a>
+                <span class="money">$50.00</span>
+            </div>
+            <div class="item"><img src="img/imhshov2.jpg" alt="">
+                <div class="hovimg1"><img src="img/imhshov2a.jpg" alt=""></div>
+                <div class="hovicon">
+                    <i class="fas fa-shopping-basket"></i>
+                    <i class="fas fa-eye"></i>
+                </div>
+                <a class="about" href="">Rust High Neck Frill Smock Dress</a>
+                <span class="money">$149.00</span>
+            </div>
+            <div class="item"><img src="img/imhshov3.jpg" alt="">
+                <div class="hovimg1"><img src="img/imhshov3a.jpg" alt=""></div>
+                <div class="hovicon">
+                    <i class="fas fa-shopping-basket"></i>
+                    <i class="fas fa-eye"></i>
+                </div>
+                <a class="about" href="">Blue Denim Pleated Tennis Skirt</a>
+                <span class="money">$100.00</span>
+            </div>
+            <div class="item"><img src="img/imhshov4.jpg" alt="">
+                <div class="hovimg1"><img src="img/imhshov4a.jpg" alt=""></div>
+                <div class="hovicon">
+                    <i class="fas fa-shopping-basket"></i>
+                    <i class="fas fa-eye"></i>
+                </div>
+                <a class="about" href="">Blue Ditsy Floral High Neck Mini...</a>
+                <span class="money">$240.00</span>
+            </div>
+            <div class="item"><img src="img/imhshov5.jpg" alt="">
+                <div class="hovimg1"><img src="img/imhshov5a.jpg" alt=""></div>
+                <div class="hovicon">
+                    <i class="fas fa-shopping-basket"></i>
+                    <i class="fas fa-eye"></i>
+                </div>
+                <a class="about" href="">Blue Floral Mini Smock Dress</a>
+                <span class="money">$115.00</span>
+            </div>
+            <div class="item"><img src="img/imhshov6.jpg" alt="">
+                <div class="hovimg1"><img src="img/imhshov6a.jpg" alt=""></div>
+                <div class="negativ hovicon">
+                    <i class="fas fa-shopping-basket"></i>
+                    <i class="fas fa-eye"></i>
+                </div>
+                <a class="about" href="">Blue Overdyed Munich Logo T Shirt</a>
+                <span class="money">$340.00</span>
+            </div>
+            <div class="item"><img src="img/imhshov7.jpg" alt="">
+                <div class="hovimg1"><img src="img/imhshov7a.jpg" alt=""></div>
+                <div class="negativ hovicon">
+                    <i class="fas fa-shopping-basket"></i>
+                    <i class="fas fa-eye"></i>
+                </div>
+                <a class="about" href="">Red Atlanta Georgia Logo Sweatshirt</a>
+                <span class="money">$49.00</span>
+            </div>
+            <div class="item"><img src="img/imhshov8.jpg" alt="">
+                <div class="hovimg1"><img src="img/imhshov8a.jpg" alt=""></div>
+                <div class="negativ hovicon">
+                    <i class="fas fa-shopping-basket"></i>
+                    <i class="fas fa-eye"></i>
+                </div>
+                <a class="about" href="">Stone Pique Collared Zip Front P...</a>
+                <span class="money">$95.00</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="imgbot">
+        <div class="ptags">
+            <p class="ptag1">EXPLORE THE NEW RANGE</p>
+            <p class="ptag2">Fashion is our </p>
+            <p class="ptag3">Passion</p>
+            <p class="ptag4">See what’s in store. Get excited!</p>
+            <a class="taga" href="">Shop Now</a>
+        </div>
+    </div>
+
+
+
+    <div id="imgshow">
+        <div class="imgsslogan2">
+            <h1>One sells</h1>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="owl-carousel owl-theme">
+            <div class="item"><img src="img/imhshov1.jpg" alt="">
+                <div class="hovimg1"><img src="img/imhshov1a.jpg" alt=""></div>
+                <div class="hovicon">
+                    <i class="fas fa-shopping-basket"></i>
+                    <i class="fas fa-eye"></i>
+                </div>
+
+                <a class="about" href="">Black Tiered Smock Mini Dress</a>
+                <span class="money">$50.00</span>
+            </div>
+            <div class="item"><img src="img/imhshov2.jpg" alt="">
+                <div class="hovimg1"><img src="img/imhshov2a.jpg" alt=""></div>
+                <div class="hovicon">
+                    <i class="fas fa-shopping-basket"></i>
+                    <i class="fas fa-eye"></i>
+                </div>
+                <a class="about" href="">Rust High Neck Frill Smock Dress</a>
+                <span class="money">$149.00</span>
+            </div>
+            <div class="item"><img src="img/imhshov3.jpg" alt="">
+                <div class="hovimg1"><img src="img/imhshov3a.jpg" alt=""></div>
+                <div class="hovicon">
+                    <i class="fas fa-shopping-basket"></i>
+                    <i class="fas fa-eye"></i>
+                </div>
+                <a class="about" href="">Blue Denim Pleated Tennis Skirt</a>
+                <span class="money">$100.00</span>
+            </div>
+            <div class="item"><img src="img/imhshov4.jpg" alt="">
+                <div class="hovimg1"><img src="img/imhshov4a.jpg" alt=""></div>
+                <div class="hovicon">
+                    <i class="fas fa-shopping-basket"></i>
+                    <i class="fas fa-eye"></i>
+                </div>
+                <a class="about" href="">Blue Ditsy Floral High Neck Mini...</a>
+                <span class="money">$240.00</span>
+            </div>
+            <div class="item"><img src="img/imhshov5.jpg" alt="">
+                <div class="hovimg1"><img src="img/imhshov5a.jpg" alt=""></div>
+                <div class="hovicon">
+                    <i class="fas fa-shopping-basket"></i>
+                    <i class="fas fa-eye"></i>
+                </div>
+                <a class="about" href="">Blue Floral Mini Smock Dress</a>
+                <span class="money">$115.00</span>
+            </div>
+            <div class="item"><img src="img/imhshov6.jpg" alt="">
+                <div class="hovimg1"><img src="img/imhshov6a.jpg" alt=""></div>
+                <div class="negativ hovicon">
+                    <i class="fas fa-shopping-basket"></i>
+                    <i class="fas fa-eye"></i>
+                </div>
+                <a class="about" href="">Blue Overdyed Munich Logo T Shirt</a>
+                <span class="money">$340.00</span>
+            </div>
+            <div class="item"><img src="img/imhshov7.jpg" alt="">
+                <div class="hovimg1"><img src="img/imhshov7a.jpg" alt=""></div>
+                <div class="negativ hovicon">
+                    <i class="fas fa-shopping-basket"></i>
+                    <i class="fas fa-eye"></i>
+                </div>
+                <a class="about" href="">Red Atlanta Georgia Logo Sweatshirt</a>
+                <span class="money">$49.00</span>
+            </div>
+            <div class="item"><img src="img/imhshov8.jpg" alt="">
+                <div class="hovimg1"><img src="img/imhshov8a.jpg" alt=""></div>
+                <div class="negativ hovicon">
+                    <i class="fas fa-shopping-basket"></i>
+                    <i class="fas fa-eye"></i>
+                </div>
+                <a class="about" href="">Stone Pique Collared Zip Front P...</a>
+                <span class="money">$95.00</span>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="iteminger">
+                    <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe, in.</h1>
+                    <img src="img/user1.jpg" alt="">
+                    <p>user1</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="iteminger">
+                    <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe, in.</h1>
+                    <img src="img/user2.jpg" alt="">
+                    <p>user2</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="iteminger">
+                    <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe, in.</h1>
+                    <img src="img/user3.jpg" alt="">
+                    <p>user3</p>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+
+    <div id="footer">
+        <div class="footering">
+            <div class="vendy">
+                <ul>
+                    <img src="img/VENDY_120x40_crop_center.png" alt="">
+                    <li>
+                        <p>Our company is dedicated to creating unique and comfortable clothing for men and women.</p>
+                    </li>
+                    <li><i class="fa-solid fa-phone"></i> Call Us:800-123-4567</li>
+                    <li><i class="fa-solid fa-envelope"></i> Send us an email</li>
+                </ul>
+            </div>
+            <div class="company">
+                <h3>Company</h3>
+                <ul>
+                    <li><a href="abot.html"> About us</a></li>
+                    <li><a href=""> Contact us</a></li>
+                    <li><a href=""> Blog</a></li>
+                    <li><a href=""> Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="information">
+                <h3>Information</h3>
+                <ul>
+                    <li><a href=""> FAQ's</a></li>
+                    <li><a href=""> Terms</a></li>
+                    <li><a href=""> Delivery Info</a></li>
+                    <li><a href=""> Refund Policy</a></li>
+                    <li><a href=""> Size Guide</a></li>
+                </ul>
+            </div>
+            <div class="order">
+                <h3>Information</h3>
+                <ul>
+                    <li><a href=""> My acount</a></li>
+                    <li><a href=""> Viev cart</a></li>
+                    <li><a href=""> WISHLIST</a></li>
+                    <li><a href=""> Checkot</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <!-- ////////////////////////////////////// -->
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+        integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    <script src="owl-carousel/owl.carousel.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,111 @@
+@media only screen and (max-width: 1200px) {
+    .choice {
+        display: none;
+    }
+    .bar {
+        display: inline;
+        margin-left: 30px;
+    }
+    .Logo img {
+        margin-top: 35px;
+        margin-left: 100px;
+    }
+    .imgbot {
+        background-image: url(../img/banner-3_1080x.jpg);
+        background-repeat: no-repeat;
+        width: 1170px;
+        height: 542px;
+        margin-left: 100px;
+        margin-top: 100px;
+    } 
+    #carouselExampleCaptions{
+        padding-left: 50px;
+    }
+    #carouselExampleControls{
+        padding-left: 50px;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    #navbar {
+        width: 1400px;
+    }
+    .introdiv3 {
+        margin-left: 50px;
+    }
+    .bar {
+        display: inline;
+    }
+    .imgsslogan {
+        margin-left: 300px;
+    }
+    .imgsslogan2 {
+        margin-left: 590px;
+    }
+    .imgbot {
+        background-image: url(../img/banner-3_1080x.jpg);
+        background-repeat: no-repeat;
+        width: 1170px;
+        height: 542px;
+        margin-left: 151px;
+        margin-top: 100px;
+    }
+    .lohinhtml {
+        height: 250px;
+        width: 141%;
+        background-color: #F2F3F5;
+    }
+    #logininput {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 90%;
+        /* margin: 100px auto 63px auto; */
+        margin-top: 100px;
+        margin-left: 180px;
+    }
+    .carousel-inner{
+        margin-left: 125px !important;
+    }
+    .container{
+        margin-left: 30% !important;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    .imgsslogan {
+        margin-left: 560px;
+    }
+    .imgsslogan2 {
+        margin-left: 560px;
+    }
+    .imgbot {
+        background-image: url(../img/banner-3_1080x.jpg);
+        background-repeat: no-repeat;
+        width: 1170px;
+        height: 542px;
+        margin-left: 170px;
+        margin-top: 100px;
+    }
+    .flexdiv {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .bar {
+        margin-left: 200px;
+    }
+    .lohinhtml {
+        height: 250px;
+        width: 181%;
+        background-color: #F2F3F5;
+    }
+    .signup {
+        margin-left: 100px;
+    }
+    #footer {
+        width: 90%;
+        margin: auto;
+        margin-left: 300px;
+    }
+}
